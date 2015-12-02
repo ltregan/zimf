@@ -53,3 +53,21 @@ a {
 .site {
     width: 6em;
 }
+
+#menu li{
+    float: right;
+    margin: 0 1em 0 0;
+    font-family: 'Arial';
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: #d02090;
+    text-decoration: none;
+}
+
+
