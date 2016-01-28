@@ -1,11 +1,24 @@
 
 
+html{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
 body {
     font-size: 1em;
     font-family: "Roboto";
-    color: white;
     background-color: black;
+    color: white;
 }
+
+a {
+    color: white;
+    font-family: 'Arial';
+}
+
 
 p{
     display: block;
@@ -27,6 +40,29 @@ ol{
     list-style-type: lower-latin;
 }
 
-ol li {
-    margin-left: 4em;
+ul{
+    margin-bottom: 0;
+    list-style-type: disc;
 }
+
+
+ol li {
+    margin-left: 5em;
+}
+
+
+footer li{
+    float: right;
+    margin: 0 1em 0 0;
+    font-family: 'Arial';
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #d02090;
+    text-decoration: none;
+}
+
