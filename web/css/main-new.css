@@ -47,7 +47,7 @@ h1{
 
 
 footer{
-    border: 30em;
+    padding: 1em;
     color: rgb(31,75,125);
 }
 
@@ -57,7 +57,7 @@ footer{
 }
 
 .align-right{
-    margin-right: 0;
+    float: right;
     display: inline;
 }
 
