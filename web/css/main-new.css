@@ -1,0 +1,65 @@
+
+.thinborder{
+    max-width: 50em;
+    margin:  2em auto;
+    display: block;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(31,75,125);
+}
+
+.thickborder{
+    margin: 0.1em;
+    display: block;
+    border: solid;
+    border-color: rgb(31,75,125);
+}
+
+body img{
+    display: block;
+    margin: 0 auto;
+
+}
+
+h1{
+    font-family: "Open Sans";
+    color: rgb(31,73,125);
+    text-align: center;
+}
+
+
+.quote{
+    text-align: center;
+    font-family: "Open Sans";
+    color: rgb(127,127,127);
+    font-style: italic;
+    margin: 3em;
+}
+
+.quotebold{
+    text-align: center;
+    font-family: "Open Sans";
+    color: rgb(127,127,127);
+    font-style: italic;
+    font-weight:bolder;
+    margin: 2em;
+}
+
+
+footer{
+    border: 30em;
+    color: rgb(31,75,125);
+}
+
+.align-left{
+    margin-left: 0;
+    display: inline;
+}
+
+.align-right{
+    margin-right: 0;
+    display: inline;
+}
+
+
+

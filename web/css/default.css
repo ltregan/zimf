@@ -1,17 +1,17 @@
 
 
-html{
-    max-width: 900px;
-    margin: 0 auto;
-
-}
-
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 body {
-    font-size: 1em;
-    font-family: "Roboto";
-    background-color: black;
-    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height : 24.65px;
+
+    font-style: normal;
+    font-family: "Source Sans Pro";
+    background-color: white;
+    color: black;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 
 p{
     display: block;
-    margin: 30px;
+    margin: 0 0 1rem 0;
 }
 
 h1 {
@@ -46,10 +46,6 @@ ul{
 }
 
 
-ol li {
-    margin-left: 5em;
-}
-
 
 footer li{
     float: right;
@@ -64,5 +60,10 @@ a{
 a:hover{
     color: #d02090;
     text-decoration: none;
+}
+
+li{
+    list-style-type: disc;
+    margin-left: 3em;
 }
 

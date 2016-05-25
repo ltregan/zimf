@@ -1,31 +1,13 @@
 
-/*
-.coverpage{
-    height: 200px;
-    overflow: hidden;  // remove scrollbar
-    position: relative; // MAKE IT APPEAR BELOW HEADER
-    background-color: black;
-    font-size: 2em;
-}
-
-.coverpage img{
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    display: block;
-}*/
-
 .coverpage{
     height: 50vh;
     overflow: hidden;
     position: relative; /* MAKE IT APPEAR BELOW HEADER */
     background-color: black;
+    color: white;
 }
 
 .coverpage img{
-    width: 1024px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -33,7 +15,34 @@
     display: block;
 }
 
-.coverpage div {
+
+@media all and (max-width: 320px)   {
+    .coverpage img{
+        width: 320px;
+    }
+}
+
+
+@media all and (max-width: 768px)   {
+    .coverpage img{
+        width: 320px;
+    }
+}
+
+@media all and (max-width: 1024px)   {
+    .coverpage img{
+        width: 1024px;
+    }
+}
+
+@media all and (max-width: 1920px)   {
+    .coverpage img{
+        width: 1920px;
+    }
+}
+
+
+.coverpage .maintitle {
     position: relative; /* MAKE IT CENTERED vs. TOP */
     margin-left: 10%;
     top: 20%; /* MAKE IT CENTERED vs. TOP */
@@ -41,6 +50,9 @@
 }
 
 .mainmenu  {
+    position: absolute;
+    top: 0;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;
@@ -62,6 +74,12 @@
     color: #d02090;
     text-decoration: none;
 }
+
+.mainmenu li{
+    list-style-type: none;
+    margin-left: 0em;
+}
+
 
 
 footer {
