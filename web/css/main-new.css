@@ -61,5 +61,8 @@ footer{
     display: inline;
 }
 
-
+h1 img {
+    height: 10em;
+    width: auto;
+}
 
